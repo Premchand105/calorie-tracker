@@ -78,6 +78,7 @@ hr{
 
 .clear:hover{
     background-color: darkblue;
+    cursor: pointer;
 }
 
 #result{
