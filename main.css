@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(241, 248, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.main-container{
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid rgb(226, 198, 251);
+}
+
+.header{
+    font-size: 35px;
+}
+
+input{
+    padding: 10px;
+    width: 80%;
+    margin: 20px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button{
+    font-weight: bold;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+button:hover{
+    transform: translatey(-2px);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+hr{
+    margin: 15px 0;
+}
+
+.display-message{
+    color: rgb(157, 155, 155);
+}
+
+.add{
+    background-color: green;
+}
+
+.add:hover{
+    background-color: rgb(1, 82, 1);
+    cursor: pointer;
+}
+.calculate{
+    background-color: red;
+}
+
+.calculate:hover{
+    background-color: rgb(172, 4, 4);
+    cursor: pointer;
+}
+
+.clear{
+    background-color: blue;
+}
+
+.clear:hover{
+    background-color: darkblue;
+}
+
+#result{
+    background-color: rgb(222, 245, 252);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    border-left:5px solid rgb(45, 196, 242);
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}

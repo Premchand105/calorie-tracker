@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calorie tracker</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <div class="main-container">
+        <h2 class="header">📱 Calorie Tracker</h2>
+        <p class="sub-header">Track your daily calorie intake</p>
+        <form>
+            <input type="text" id="item" placeholder="Enter item name">
+            <input type="number" id="calorie" placeholder="Enter the calorie value">
+        </form>
+        <button class="add" onclick="addItem()">Add item</button>
+        <button class="calculate" onclick="calculate()">Display Total</button>
+        <br>
+        <button class="clear" onclick="clearData()">Clear Data</button>
+        <hr>
+        <div id="result">
+            <p class="display-message">Please click 'Display Total' to get the total calorie intake</p>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
