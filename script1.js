@@ -75,8 +75,12 @@ function calculate(){
 
 }
 function clearData(){
-    localStorage.clear();
+   localStorage.clear();
     const r=document.getElementById('result');
+    items=[]
+    cal=[]
+    localStorage.setItem("itemsArray", JSON.stringify(items));
+    localStorage.setItem("caloriesArray", JSON.stringify(cal));
     r.innerHTML=`
                 <p class="display-message">Please click 'Display Total' to get the total calorie intake</p>
             `;
