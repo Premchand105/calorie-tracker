@@ -83,7 +83,7 @@ function clearData(){
     localStorage.setItem("caloriesArray", JSON.stringify(cal));
     location.reload();
     r.innerHTML=`
-                <p class="display-message">--Please click 'Display Total' to get the total calorie intake</p>
+                <p class="display-message">Please click 'Display Total' to get the total calorie intake</p>
             `;
     
 }
